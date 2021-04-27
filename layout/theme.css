@@ -1,0 +1,11 @@
+body{
+  background:rgb(33, 33, 33);
+  color:rgb(233, 233, 233);
+  padding:1em;
+}
+a{
+  color:rgb(233, 233, 233);
+}
+img{
+  max-width:100%;
+}
