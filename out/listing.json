@@ -7,7 +7,8 @@
       "ext": ".jpg",
       "name": "bss-ss"
     },
-    "location": "bss-ss.jpg"
+    "location": "bss-ss.jpg",
+    "meta": {}
   },
   {
     "path": {
@@ -17,7 +18,8 @@
       "ext": ".ico",
       "name": "favicon"
     },
-    "location": "favicon.ico"
+    "location": "favicon.ico",
+    "meta": {}
   },
   {
     "path": {
@@ -27,7 +29,8 @@
       "ext": ".gif",
       "name": "img"
     },
-    "location": "img_test/img.gif"
+    "location": "img_test/img.gif",
+    "meta": {}
   },
   {
     "path": {
@@ -37,7 +40,8 @@
       "ext": ".html",
       "name": "img_test"
     },
-    "location": "img_test/img_test.html"
+    "location": "img_test/img_test.html",
+    "meta": {}
   },
   {
     "path": {
@@ -47,7 +51,8 @@
       "ext": ".html",
       "name": "index"
     },
-    "location": "index.html"
+    "location": "index.html",
+    "meta": {}
   },
   {
     "path": {
@@ -57,7 +62,8 @@
       "ext": ".html",
       "name": "listing-advanced"
     },
-    "location": "listing-advanced.html"
+    "location": "listing-advanced.html",
+    "meta": {}
   },
   {
     "path": {
@@ -67,7 +73,8 @@
       "ext": ".html",
       "name": "listing-simple"
     },
-    "location": "listing-simple.html"
+    "location": "listing-simple.html",
+    "meta": {}
   },
   {
     "path": {
@@ -77,7 +84,8 @@
       "ext": ".html",
       "name": "md-html"
     },
-    "location": "md-html.html"
+    "location": "md-html.html",
+    "meta": {}
   },
   {
     "path": {
@@ -87,7 +95,8 @@
       "ext": ".html",
       "name": "raw-html"
     },
-    "location": "raw-html.html"
+    "location": "raw-html.html",
+    "meta": {}
   },
   {
     "path": {
@@ -97,7 +106,8 @@
       "ext": ".txt",
       "name": "t"
     },
-    "location": "t.txt"
+    "location": "t.txt",
+    "meta": {}
   },
   {
     "path": {
@@ -107,7 +117,10 @@
       "ext": ".html",
       "name": "test"
     },
-    "location": "test.html"
+    "location": "test.html",
+    "meta": {
+      "test": "somename"
+    }
   },
   {
     "path": {
@@ -117,6 +130,7 @@
       "ext": ".html",
       "name": "y"
     },
-    "location": "x/y.html"
+    "location": "x/y.html",
+    "meta": {}
   }
 ]
