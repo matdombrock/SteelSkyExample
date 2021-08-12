@@ -4,7 +4,7 @@
   "description":"Site homepage."
 }
 </steelsky>
-# STEEL SKY
+# STEEL SKY CCC
 
 A *very* lightweight, no BS static site generator written in NodeJS.
 

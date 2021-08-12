@@ -1,3 +1,4 @@
+// Custom directory listing code
 const ssList = {};
 
 ssList.queryString = window.location.search;

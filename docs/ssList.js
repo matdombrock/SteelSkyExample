@@ -1,3 +1,4 @@
+// Custom directory listing code
 const ssList = {};
 
 ssList.queryString = window.location.search;
@@ -25,7 +26,7 @@ ssList.xhttp.onreadystatechange = function() {
       ssList.updateFilter();
     }
 };
-ssList.xhttp.open("GET", "/listing.json", true);
+ssList.xhttp.open("GET", "https://github.com/matdombrock/SteelSkyExample/listing.json", true);
 ssList.xhttp.send();
 
 ssList.updateFilter = ()=>{
