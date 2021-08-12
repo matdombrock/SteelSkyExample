@@ -1,0 +1,17 @@
+<div class="footer">
+  <hr>
+  &copy; Mathieu Dombrock 2022 | <a href="mailto:dombrock.mathieu@gmail.com">dombrock.mathieu@gmail.com</a> | 
+  <a href="https://github.com/matdombrock" target="_blank">Github</a> | 
+  <a href="https://github.com/matdombrock/SteelSky" target="_blank">SteelSky</a> |
+  <small id="visits"></small>
+</div>
+
+<script>
+  let visits = localStorage.getItem('visits');
+  if(visits === undefined){
+    visits = 0;
+  }
+  visits++;
+  localStorage.setItem('visits', visits);
+  document.getElementById('visits').innerHTML = "This browser has been here " + visits + " times";
+</script>
