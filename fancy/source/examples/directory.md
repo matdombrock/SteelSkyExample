@@ -35,4 +35,4 @@ Directory listings are auto-generated when you run SteelSky. The listing will be
 }
 </style>
 
-<script src="/ssList.js"></script>
+<script src="https://matdombrock.github.io/SteelSkyExample/ssList.js"></script>
