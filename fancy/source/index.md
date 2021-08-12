@@ -16,7 +16,7 @@ npm install steelsky
 ```
 
 ## Features
-* Handles bulk conversion of Markdown files to HTMl
+* Handles bulk conversion of Markdown files to HTML
 * Preserves original arbitrary directory structure
 * Supports arbitrary static assets
 * Simple vanilla HTML/CSS "templating" system
