@@ -60,7 +60,7 @@ small{
 .jumbotron{
   background:black;
   padding:1.5rem;
-  background-image: url('/img/bg2.jpg');
+  background-image: url('https://matdombrock.github.io/SteelSkyExample/img/bg2.jpg');
   background-size:cover;
   background-attachment: fixed;
 }
