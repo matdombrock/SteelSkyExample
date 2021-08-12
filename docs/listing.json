@@ -1,0 +1,162 @@
+[
+  {
+    "path": {
+      "root": "",
+      "dir": "examples",
+      "base": "bootstrap.md",
+      "ext": ".html",
+      "name": "bootstrap",
+      "originalExt": ".md"
+    },
+    "location": "examples/bootstrap.html",
+    "meta": {
+      "title": "Bootstrap",
+      "description": "Bootstrap usage example.",
+      "tags": "#example"
+    }
+  },
+  {
+    "path": {
+      "root": "",
+      "dir": "examples",
+      "base": "directory.md",
+      "ext": ".html",
+      "name": "directory",
+      "originalExt": ".md"
+    },
+    "location": "examples/directory.html",
+    "meta": {
+      "title": "Site Directory",
+      "description": "A list of all assets on this website."
+    }
+  },
+  {
+    "path": {
+      "root": "",
+      "dir": "examples",
+      "base": "other-libs.md",
+      "ext": ".html",
+      "name": "other-libs",
+      "originalExt": ".md"
+    },
+    "location": "examples/other-libs.html",
+    "meta": {
+      "title": "Other Libraries",
+      "description": "How to use other libraries.",
+      "tags": "#example"
+    }
+  },
+  {
+    "path": {
+      "root": "",
+      "dir": "examples",
+      "base": "syntax-highlighting.md",
+      "ext": ".html",
+      "name": "syntax-highlighting",
+      "originalExt": ".md"
+    },
+    "location": "examples/syntax-highlighting.html",
+    "meta": {
+      "title": "Syntax Highlighting",
+      "description": "Syntax highlighting examples.",
+      "tags": "#example"
+    }
+  },
+  {
+    "path": {
+      "root": "",
+      "dir": "examples",
+      "base": "vuejs.md",
+      "ext": ".html",
+      "name": "vuejs",
+      "originalExt": ".md"
+    },
+    "location": "examples/vuejs.html",
+    "meta": {
+      "title": "VueJS",
+      "description": "VueJS usage example.",
+      "tags": "#example"
+    }
+  },
+  {
+    "path": {
+      "root": "",
+      "dir": "img",
+      "base": "bg.jpg",
+      "ext": ".jpg",
+      "name": "bg",
+      "originalExt": ".jpg"
+    },
+    "location": "img/bg.jpg"
+  },
+  {
+    "path": {
+      "root": "",
+      "dir": "img",
+      "base": "bg2.jpg",
+      "ext": ".jpg",
+      "name": "bg2",
+      "originalExt": ".jpg"
+    },
+    "location": "img/bg2.jpg"
+  },
+  {
+    "path": {
+      "root": "",
+      "dir": "img",
+      "base": "focus_re.svg",
+      "ext": ".svg",
+      "name": "focus_re",
+      "originalExt": ".svg"
+    },
+    "location": "img/focus_re.svg"
+  },
+  {
+    "path": {
+      "root": "",
+      "dir": "img",
+      "base": "forest-sky.jpg",
+      "ext": ".jpg",
+      "name": "forest-sky",
+      "originalExt": ".jpg"
+    },
+    "location": "img/forest-sky.jpg"
+  },
+  {
+    "path": {
+      "root": "",
+      "dir": "img",
+      "base": "lost_online.svg",
+      "ext": ".svg",
+      "name": "lost_online",
+      "originalExt": ".svg"
+    },
+    "location": "img/lost_online.svg"
+  },
+  {
+    "path": {
+      "root": "",
+      "dir": "",
+      "base": "index.md",
+      "ext": ".html",
+      "name": "index",
+      "originalExt": ".md"
+    },
+    "location": "index.html",
+    "meta": {
+      "title": "SteelSky",
+      "description": "Site homepage."
+    }
+  },
+  {
+    "path": {
+      "root": "",
+      "dir": "",
+      "base": "ssList.js",
+      "ext": ".js",
+      "name": "ssList",
+      "originalExt": ".js"
+    },
+    "location": "ssList.js"
+  }
+]

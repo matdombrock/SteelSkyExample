@@ -1,0 +1,286 @@
+<head>
+  <title>SteelSky Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8"/>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<div class="jumbotron">
+  <h1 class="display-4">
+    <span class="hilight">S</span>teel<span class="hilight">S</span>ky
+  </h1>
+  <p class="lead">
+    A very lightweight,<br>
+    <span class="hilight">"No BS"</span><br>
+    static site generator written in NodeJS.</p>
+  <hr class="my-4">
+  <p>Automatically converts an arbitrary directory structure containing markdown and other static assets into a static site with no external dependencies.</p>
+  <p class="lead">
+    <a class="btn btn-outline-light btn-lg" href="https://github.com/matdombrock/SteelSky" role="button" target="_blank">Github</a>
+    <a class="btn btn-outline-light btn-lg" href="https://github.com/matdombrock/SteelSky/wiki" role="button" target="_blank">Wiki</a>
+    <a class="btn btn-outline-light btn-lg" href="https://www.npmjs.com/package/steelsky" role="button" target="_blank">NPM</a>
+  </p>
+</div>
+<nav class="navbar navbar-expand-lg">
+  <a href="/">Home</a>
+  <a href="/examples/syntax-highlighting.html">Syntax Hilighting</a>
+  <a href="/examples/bootstrap.html">Bootstrap</a>
+  <a href="/examples/vuejs.html">VueJS</a>
+  <a href="/examples/other-libs.html">Other Libraries</a>
+  <a href="/examples/directory.html">Directory Listing</a>
+</nav>
+<div class="header-spacer"></div><style>/* a11y-dark theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #d4d0ab;
+}
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #ffa07a;
+}
+
+/* Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #f5ab35;
+}
+
+/* Yellow */
+.hljs-attribute {
+  color: #ffd700;
+}
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #abe338;
+}
+
+/* Blue */
+.hljs-title,
+.hljs-section {
+  color: #00e0e0;
+}
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #dcc6e0;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2b2b2b;
+  color: #f8f8f2;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+        color: highlight;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag {
+        font-weight: bold;
+    }
+}
+</style><style>:root{
+  --orange: rgb(255, 145, 0);
+}
+body{
+  xfont-family: Consolas, monaco, monospace;
+  background:rgb(19, 19, 19);
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(33,33,33,1) 100%);
+  color:rgb(233, 233, 233);
+  padding:0em;
+  margin:0 auto;
+}
+body::selection { color: var(--orange) }
+a{
+  color:rgb(233, 233, 233);
+  transition:all 0.2s;
+}
+a:hover{
+  color:var(--orange);
+}
+img{
+  max-width:100%;
+}
+.img-sm{
+  max-width:50%;
+}
+small{
+  color:rgb(173, 173, 173);
+}
+.ss-content{
+  max-width:1000px;
+  margin-left:10vw;
+  xbackground:black;
+  padding:1rem;
+  border-left:1px solid var(--orange);
+  
+}
+@media only screen and (max-width: 1200px) {
+  .ss-content{
+    margin-left:0;
+  }
+}
+
+
+.header-spacer{
+  height:1.5rem;
+}
+
+.footer{
+  background:black;
+  padding:1.5rem;
+}
+
+
+.hilight{
+  color:var(--orange);
+}
+
+/*BS*/
+.jumbotron{
+  background:black;
+  padding:1.5rem;
+  background-image: url('/img/bg2.jpg');
+  background-size:cover;
+  background-attachment: fixed;
+}
+.navbar{
+  background:black;
+  padding:1.5rem;
+  border-top: 1px solid white;
+}
+.navbar a{
+  padding-right:1rem;
+}
+code{
+  color:var(--orange);
+}</style><div class="ss-content"><script>const ssmeta=
+{
+  "title":"VueJS",
+  "description":"VueJS usage example.",
+  "tags":"#example"
+}
+;</script>
+<h1 id="vuejs">VueJS</h1>
+<p>The simplest way to start using bootstrap is to include it in either the <code>header.html</code> or <code>footer.html</code> files like this:</p>
+<pre><code class="hljs"><span class="hljs-comment">&lt;!-- development version, includes helpful console warnings --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<p>Once you have that included it can be used in your layout files or in your converted markdown files (by using standard HTML).</p>
+<h2 id="example">Example</h2>
+<hr />
+<div id="app">
+  {{ message }}
+  <br>
+  <input type="text" v-model="message">
+  <br>
+  <div v-for="item in list">
+    - {{item.toUpperCase()}} -
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Change Me!',
+    list:[
+      'item1',
+      'item2',
+      'item3'
+    ]
+  }
+})
+</script>
+<hr />
+<h3 id="sourcevuejsmd">Source (<code>vuejs.md</code>)</h3>
+<pre class="html language-html"><code class="hljs html language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>
+  {{ message }}
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">v-model</span>=<span class="hljs-string">&quot;message&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">v-for</span>=<span class="hljs-string">&quot;item in list&quot;</span>&gt;</span>
+    - {{item.toUpperCase()}} -
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+<span class="hljs-keyword">var</span> app = <span class="hljs-keyword">new</span> Vue({
+  <span class="hljs-attr">el</span>: <span class="hljs-string">&#x27;#app&#x27;</span>,
+  <span class="hljs-attr">data</span>: {
+    <span class="hljs-attr">message</span>: <span class="hljs-string">&#x27;Change Me!&#x27;</span>,
+    <span class="hljs-attr">list</span>:[
+      <span class="hljs-string">&#x27;item1&#x27;</span>,
+      <span class="hljs-string">&#x27;item2&#x27;</span>,
+      <span class="hljs-string">&#x27;item3&#x27;</span>
+    ]
+  }
+})
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre></div><div class="footer">
+  <hr>
+  &copy; Mathieu Dombrock 2022 | <a href="mailto:dombrock.mathieu@gmail.com">dombrock.mathieu@gmail.com</a> | 
+  <a href="https://github.com/matdombrock" target="_blank">Github</a> | 
+  <a href="https://github.com/matdombrock/SteelSky" target="_blank">SteelSky</a> |
+  <small id="visits"></small>
+</div>
+
+<script>
+  let visits = localStorage.getItem('visits');
+  if(visits === undefined){
+    visits = 0;
+  }
+  visits++;
+  localStorage.setItem('visits', visits);
+  document.getElementById('visits').innerHTML = "This browser has been here " + visits + " times";
+</script>
